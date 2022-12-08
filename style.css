@@ -6,11 +6,16 @@ margin-right: auto;
 display: flex;
 justify-content: center;
 }
-.header {
+/*     font-family: 'Merriweather', serif;
 
+    font-family: 'Montserrat', sans-serif; */
+.header {
 align-items: center;
 padding-top: 20px;
 padding-bottom: 20px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
 }
 .bodybox {
 width: 1024px;
@@ -19,4 +24,12 @@ margin-left: auto;
 margin-right: auto;
 display: flex;
 justify-content: center;
+font-family: 'Merriweather', serif ;
 }
+ a {
+    text-decoration: none;
+    color: black;
+ }
+ li {
+    margin-bottom: 20px;
+ }
