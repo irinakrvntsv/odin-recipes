@@ -1,6 +1,6 @@
 body {
 background-color: rgb(255, 228, 196);
-background-image:url(img/background.jpg);
+background-image: url(../img/background.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -10,7 +10,7 @@ width: 1024px;
 min-height: 70px;
 margin-left: auto;
 margin-right: auto;
-margin-top: 110px;
+/* margin-top: 110px; */
 display: flex;
 justify-content: center;
 }
@@ -21,7 +21,7 @@ padding-bottom: 20px;
 }
 h1 {
 font-family: 'Montserrat', sans-serif;
-color: white;
+/* color: white; */
 }
 .bodybox {
 width: 1024px;
@@ -41,4 +41,26 @@ color: white;
  }
  li {
 margin-bottom: 20px;
+ }
+ .boximg {
+    width: 1024px;
+    min-height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+   border-radius: 12px ;
+ }
+ img{
+    width: 50%;
+    margin-right: 30px;
+    padding: 10px 10px;
+    border-radius: 20px ;
+ }
+ p {
+    font-family: 'Merriweather', serif 
+ }
+ .boxdesc {
+
  }
