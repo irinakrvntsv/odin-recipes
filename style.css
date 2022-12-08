@@ -12,3 +12,11 @@ align-items: center;
 padding-top: 20px;
 padding-bottom: 20px;
 }
+.bodybox {
+width: 1024px;
+min-height: auto;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: center;
+}
