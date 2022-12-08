@@ -1,25 +1,31 @@
+body {
+background-color: rgb(255, 228, 196);
+background-image:url(img/background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
 .container {
 width: 1024px;
-min-height: 140px;
+min-height: 70px;
 margin-left: auto;
 margin-right: auto;
+margin-top: 110px;
 display: flex;
 justify-content: center;
 }
-/*     font-family: 'Merriweather', serif;
-
-    font-family: 'Montserrat', sans-serif; */
 .header {
 align-items: center;
 padding-top: 20px;
 padding-bottom: 20px;
 }
 h1 {
-    font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
+color: white;
 }
 .bodybox {
 width: 1024px;
-min-height: auto;
+min-height: 100vh;
 margin-left: auto;
 margin-right: auto;
 display: flex;
@@ -29,6 +35,9 @@ font-family: 'Merriweather', serif ;
  a {
     text-decoration: none;
     color: black;
+ }
+ a:hover {
+color: white;
  }
  li {
     margin-bottom: 20px;
